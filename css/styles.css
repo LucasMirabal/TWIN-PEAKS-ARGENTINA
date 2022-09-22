@@ -15,21 +15,6 @@
     animation-iteration-count: infinite;
 }
 
-@keyframes color-h1 {
-
-    0% {
-        background-color: brown;
-    }
-    50% {
-        background-color: rgb(80, 3, 3);
-    }
-    
-    100% {
-        background-color: rgb(2, 96, 2);
-    }
-}
-
-
 .h2{
     background-color: green;
     text-transform: uppercase;
