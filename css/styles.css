@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.h1{
+    text-align: center;
+    background-color: brown;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Michroma', sans-serif;
+}
+
+.h2{
+    background-color: green;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Michroma', sans-serif;
+}
+
+.bienvenidos{
+    font-size: 20px;
+    background-color: silver;
+    
+}
+
+body{
+    background-image: url("../img/suelo\ imagen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Sinopsis{
+    text-transform: uppercase;
+    font-size: 50px;
+    background-color: brown;
+    font-family: 'Michroma', sans-serif
+}
+
+.fondo__sinopsis{
+    background-image: url(../img/twin\ peaks\ imagen.jpg);
+}
+
+.imagen__david{
+    align-content: center;
+}
+
+.texto__sinopsis{
+    background-color: silver;
+}
+
+.menu{
+    font-size: x-large;
+    margin-top: 15px;
+    margin-left: 10px;
+   
+}
+
+.fondo__lynch{
+    background-image: url(../img/torta\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1__david{
+    background-color: brown;
+    font-size: 50px;
+    font-family: 'Michroma', sans-serif;
+    text-transform: uppercase;
+}
+
+.parrafo__david{
+    background-color: silver;
+    font-size: large;
+}
+
+.body__soundtrack{
+    background-image: url(../img/casa\ imagen.jpg);
+    background-size: cover;
+}
+
+.soundtrack{
+    background-color: brown;
+    font-size: 30px;
+    font-family: 'Michroma', sans-serif;
+    text-transform: uppercase;
+}
+
+.body__memes{
+    background-image:url(../img/pajaro\ imagen.jpg);
+    background-size: cover;
+
+}
+
+.titulomemes{
+    background-color: brown;
+    font-family: 'Michroma', sans-serif;
+    text-transform: uppercase;
+    position: fixed;
+    
+
+}
+
+
+.newsletter{
+    color: goldenrod;
+    border-style: solid;
+    background-color: brown;
+    margin: 20px;
+    padding: 5px;
+    display: inline;
+}
+
+.face{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-memes{
+    background-color: silver;
+    text-transform: uppercase;
+
+}
+
+.fondo__lynch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:900px){
+    header{
+     display: block;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    }
+    .fondo__lynch{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
