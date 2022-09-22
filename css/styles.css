@@ -10,7 +10,25 @@
     text-transform: uppercase;
     font-size: 70px;
     font-family: 'Michroma', sans-serif;
+    animation-name: color-h1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes color-h1 {
+
+    0% {
+        background-color: brown;
+    }
+    50% {
+        background-color: rgb(80, 3, 3);
+    }
+    
+    100% {
+        background-color: rgb(2, 96, 2);
+    }
+}
+
 
 .h2{
     background-color: green;
@@ -69,7 +87,26 @@ body{
     font-size: 50px;
     font-family: 'Michroma', sans-serif;
     text-transform: uppercase;
+    animation-name: color-h1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes color-h1 {
+    0% {
+        background-color: brown;
+    }
+    50% {
+        background-color: rgb(80, 3, 3);
+    }
+    
+    100% {
+        background-color: rgb(2, 96, 2);
+    }
+}
+
+
+
 
 .parrafo__david{
     background-color: silver;
@@ -131,7 +168,9 @@ body{
     justify-content: space-around;
 }
 
-@media screen and (max-width:900px){
+/* mediaquerys*/
+
+@media screen and (min-width:900px){
     header{
      display: block;
      display: flex;
@@ -144,3 +183,40 @@ body{
         justify-content: space-around;
     }
 }
+
+
+@media screen and (min-width:900px){
+    header{
+     display: block;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    }
+    .fondo__sinopsis{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+
+
+.fondo__lynch {
+    height: 65vh;
+    padding: 1rem;
+    display: grid;
+    grid-template-areas: "h1_david" "parrafodavid" "imagen_david" "footer";
+     align-content:left;
+    align-items:left;
+    grid-area: h1__david;
+    }
+
+    .parrafo__david{
+    grid-area: parrafo__david;
+    }
+    .imagen__david{
+    grid-area: imagen__david;
+    }
+    .footer{
+    grid-area: footer;
+    }
